@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleButton">
+        <attr name="switch_on" format="reference"/>
+        <attr name="switch_off" format="reference"/>
+        <attr name="slide_bitmap" format="reference"/>
+        <attr name="current_state" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioLayout">
+        <attr name="ratio" format="float"/>
+        <attr name="relative">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="QQHealthView">
+        <attr name="lineColor" format="color"></attr>
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleColor" format="color"></attr>
+    </declare-styleable>
+
+</resources>

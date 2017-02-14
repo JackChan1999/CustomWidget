@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.google.widget"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.RotateMenuActivity"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.activity.BannerActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.RingWaveActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.ParallaxActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.CustomViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".ui.activity.CustomSpinnerActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.SwitchActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.PullRefreshActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.SlidingMenuActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.SweepActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.QQDemoActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.ContactActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.DragActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.SwipeActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.GooViewActivity"
+            android:theme="@style/BaseTheme"
+            />
+        <activity
+            android:name=".ui.activity.FlowActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.ProgressButtonActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.CPBAcitivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.RatioActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.HeaderTabActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity
+            android:name=".ui.activity.ScreenSlidePagerActivity"
+            android:theme="@style/BaseTheme"/>
+        <activity android:name=".ui.activity.MDActivity"/>
+        <activity android:name=".ui.activity.StaggeredGridAct"/>
+        <activity android:name=".ui.activity.QQHealthViewActivity"
+                  android:theme="@style/BaseTheme"/>
+        <activity android:name=".ui.activity.SpeedControlActivity"
+                  android:theme="@style/BaseTheme"/>
+
+        <activity
+            android:name=".ui.activity.DetailActivity"
+            android:parentActivityName=".ui.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

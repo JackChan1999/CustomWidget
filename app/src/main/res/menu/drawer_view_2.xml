@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@id/nav_home"
+            android:icon="@mipmap/ic_drawer_home_normal"
+            android:title="首页"/>
+        <item
+            android:id="@id/nav_message"
+            android:icon="@mipmap/ic_drawer_explore_normal"
+            android:title="发现"/>
+        <item
+            android:id="@id/nav_friends"
+            android:icon="@mipmap/ic_drawer_follow_normal"
+            android:title="关注"/>
+        <item
+            android:id="@id/nav_discussion"
+            android:icon="@mipmap/ic_drawer_collect_normal"
+            android:title="收藏"/>
+        <item
+            android:id="@id/nav_discussion"
+            android:icon="@mipmap/ic_drawer_draft_normal"
+            android:title="草稿"/>
+        <item
+            android:id="@id/nav_discussion"
+            android:icon="@mipmap/ic_forum"
+            android:title="搜索"/>
+        <item
+            android:id="@id/nav_discussion"
+            android:icon="@mipmap/ic_drawer_question_normal"
+            android:title="提问"/>
+        <item
+            android:id="@id/nav_discussion"
+            android:icon="@mipmap/ic_forum"
+            android:title="设置"/>
+
+    </group>
+
+</menu>

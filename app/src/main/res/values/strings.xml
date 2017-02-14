@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Widgets</string>
+    <string name="rotate_menu">旋转菜单</string>
+    <string name="ConvenientBanner">轮播图</string>
+    <string name="test_view">测试页面Button</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="call">Call</string>
+    <string name="delete">Delete</string>
+    <string name="conversation1">扫一扫</string>
+    <string name="conversation2">建讨论组</string>
+    <string name="conversation3">面对面</string>
+    <string name="conversation4">多人通话</string>
+    <string name="conversation5">我的电脑</string>
+    <string name="conversation6">加好友</string>
+    <string name="lorem_ipsum">1</string>
+    <string name="cheese_ipsum">“民亦劳止，汔可小康。”“小康”源出《诗经》，是中国百姓对安定、幸福生活的恒久守望，是穿越无数苦难与辉煌岁月的执着梦想。近日，经中央批准，《习近平关于全面建成小康社会论述摘编》出版发行。深入学习贯彻习近平关于全面建成小康社会的论述，首先要正确理解“全面”这个核心词。习近平在党的十八届五中全会第二次全体会议上指出：“全面建成小康社会，强调的不仅是‘小康’，而且更重要的也是更难做到的是‘全面’。”请随“学习中国”小编一起学习。</string>
+    <string name="speed_up">油门</string>
+    <string name="speed_down">刹车</string>
+    <string name="shut_down">手刹</string>
+
+    <string-array name="view_name">
+        <item>三级旋转菜单</item>
+        <item>大图轮播</item>
+        <item>CustomViewPager</item>
+        <item>下拉选择</item>
+        <item>ToggleButton</item>
+        <item>下拉刷新,上拉加载</item>
+        <item>视差特效</item>
+        <item>快速索引</item>
+        <item>水波纹</item>
+        <item>流式布局</item>
+        <item>SlidingMenu</item>
+        <item>侧滑面板</item>
+        <item>侧滑删除</item>
+        <item>粘性控件</item>
+        <item>综合Demo</item>
+        <item>ProgressButton</item>
+        <item>CircleProgressButton</item>
+        <item>RatioLayout</item>
+        <item>HeaderTab</item>
+        <item>ViewPagerTransformer</item>
+        <item>滚动折叠布局</item>
+        <item>瀑布流</item>
+        <item>QQHealthView</item>
+        <item>SpeedControl</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>巩俐不低俗，我就不能低俗</item>
+        <item>朴树又回来啦！再唱经典老歌引万人大合唱</item>
+        <item>揭秘北京电影如何升级</item>
+        <item>乐视网TV版大派送</item>
+        <item>热血屌丝的反杀</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/action_tab_left"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:background="@mipmap/tab_left_normal"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/action_tab_middle"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:background="@mipmap/tab_middle_normal"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/action_tab_right"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:background="@mipmap/tab_right_normal"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+</merge>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/drawer_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.widget.view.CircleImageView
+            android:id="@id/user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/allen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/user_icon"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/user_icon"
+            android:text="AllenIverson"
+            android:textColor="#424242"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/user_icon"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/user_icon"
+            android:text="815712739@qq.com"
+            android:textColor="#757575"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#e0e0e0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_drawer_home_normal"
+        android:drawablePadding="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="首页"
+        android:textSize="20sp"/>
+
+</LinearLayout>

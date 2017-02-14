@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@id/tv_title"
+        style="@style/TitleStyle"
+        android:background="#757575"
+        android:text="选择联系人"
+        android:textSize="20sp"/>
+
+    <com.google.widget.view.SearchEditText
+        android:id="@id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_title"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_search"
+        android:drawableLeft="@mipmap/ic_search"
+        android:drawablePadding="10dp"
+        android:hint="搜索联系人"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <ListView
+        android:id="@id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/et_search"
+        android:scrollbars="none"/>
+
+    <com.google.widget.view.QuickIndexBar
+        android:id="@id/bar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/et_search"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_index"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

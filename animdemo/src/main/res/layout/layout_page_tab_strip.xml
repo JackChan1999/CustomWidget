@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f00">
+
+    <RadioGroup
+        android:id="@+id/rg_nav_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv_nav_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"/>
+</RelativeLayout>

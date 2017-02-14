@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.widget.view.SlidingMenu
+        android:id="@id/slidingmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--左侧菜单-->
+        <include layout="@layout/layout_menu"/>
+        <!--右侧内容-->
+        <include layout="@layout/layout_main"/>
+    </com.google.widget.view.SlidingMenu>
+
+</LinearLayout>

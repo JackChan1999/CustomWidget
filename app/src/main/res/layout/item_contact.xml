@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- android:background="#EBEBEB" -->
+    <TextView
+        android:id="@id/tv_index"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#e0e0e0"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="A"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/img_default_avatar"/>
+        <!--android:layout_marginTop="10dp"-->
+        <TextView
+            android:id="@id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/icon"
+            android:layout_toRightOf="@id/icon"
+            android:text="张三"
+            android:textColor="#424242"
+            android:textSize="18sp"/>
+        <!--android:layout_below="@id/tv_name"
+            android:layout_marginTop="5dp"-->
+        <TextView
+            android:id="@id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_alignBottom="@id/icon"
+            android:textColor="#757575"
+            android:text="18801911161"/>
+    </RelativeLayout>
+
+</LinearLayout>

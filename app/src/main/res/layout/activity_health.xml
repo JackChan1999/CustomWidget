@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical">
+
+    <com.google.widget.view.QQHealthView
+        android:id="@id/QQView"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_margin="15dp"
+        app:lineColor="@color/font_tips"
+        app:titleColor="@color/textcolor"
+        app:titleSize="50dp"/>
+
+    <Button
+        android:id="@id/set_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/progress_normal"
+        android:textColor="#fff"
+        android:text="重置"/>
+</LinearLayout>

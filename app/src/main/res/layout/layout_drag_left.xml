@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="AllenIverson"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_vip"
+        style="@style/text_left"
+        android:text="开通会员"
+        />
+
+    <TextView
+        android:id="@id/tv_qianbao"
+        style="@style/text_left"
+        android:text="QQ钱包"
+        />
+
+    <TextView
+        android:id="@id/tv_zhuangban"
+        style="@style/text_left"
+        android:text="个性装扮"
+        />
+
+    <TextView
+        android:id="@id/tv_shoucang"
+        style="@style/text_left"
+        android:text="我的收藏"
+        />
+
+    <TextView
+        android:id="@id/tv_xiangce"
+        style="@style/text_left"
+        android:gravity="center_vertical"
+        android:text="我的相册"
+        />
+
+    <TextView
+        android:id="@id/tv_wenjian"
+        style="@style/text_left"
+        android:text="我的文件"
+        />
+
+    <TextView
+        android:id="@id/tv_businesscard"
+        style="@style/text_left"
+        android:text="我的名片夹"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/setting"
+            style="@style/text_left"
+            android:text="设置"/>
+
+        <TextView
+            android:id="@id/night"
+            style="@style/text_left"
+            android:text="夜间"/>
+    </LinearLayout>
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@id/rv_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>-->
+
+</LinearLayout>
