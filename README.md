@@ -55,7 +55,7 @@
 # 等比例显示控件
 # 流式布局FlowLayout
 
-![](http://img.blog.csdn.net/20170117141326104?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://github.com/JackChen1999/FlowLayout/blob/master/art/flowlayout.jpg)
 
 # 3D画廊
 
