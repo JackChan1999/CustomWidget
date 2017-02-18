@@ -46,7 +46,7 @@
 
 # 侧滑面板
 
-![这里写图片描述](http://img.blog.csdn.net/20160911235727896)
+![DragLayout](https://github.com/JackChen1999/DragLayout/blob/master/art/DragLayout-1.png)
 
 # 侧拉删除
 
