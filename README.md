@@ -32,6 +32,7 @@
 - [侧滑面板](http://blog.csdn.net/axi295309066/article/details/52507579)
 - [快速索引](http://blog.csdn.net/axi295309066/article/details/52507242)
 - [轮播图/广告条](http://blog.csdn.net/axi295309066/article/details/52507030)
+- [等比例显示控件](https://github.com/JackChen1999/RatioLayout)
 
 # 旋转菜单
 
@@ -91,6 +92,9 @@
 ![](http://img.blog.csdn.net/20170218112811591?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 # 等比例显示控件
+
+<img src="https://github.com/JackChen1999/RatioLayout/raw/master/art/RadioLayout.jpg" width="400" />
+
 # 流式布局FlowLayout
 
 <img src="https://github.com/JackChen1999/FlowLayout/blob/master/art/flowlayout.jpg" width="300" />
