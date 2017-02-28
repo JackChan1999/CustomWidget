@@ -41,7 +41,7 @@
 
 # 下拉选择
 
-<img src="http://img.blog.csdn.net/20170218185424488?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="300" />
+<img src="https://github.com/JackChen1999/Spinner/blob/master/art/spinner.jpg" width="300" />
 
 # 下拉刷新
 
