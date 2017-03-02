@@ -89,7 +89,7 @@ public class RatioLayout extends FrameLayout {
             childWidth = (int) (childHeight * mPicRatio + 0.5f);
         }
         int childWidthMeasureSpec = MeasureSpec.makeMeasureSpec(childWidth, MeasureSpec.EXACTLY);
-        int childHeightMeasureSpec = MeasureSpec.makeMeasureSpec(childHeight, MeasureSpec.EXACTLY);
+        int childHeightMeasureSpec = MeasureSpec.makeMeasureSpec(childHeight, MeasureSpec.AT_MOST);
         measureChildren(childWidthMeasureSpec, childHeightMeasureSpec);
         setMeasuredDimension(childWidth + getPaddingLeft() + getPaddingRight(), childHeight +
                 getPaddingBottom() + getPaddingTop());

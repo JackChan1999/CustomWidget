@@ -72,7 +72,7 @@ public class PullRefreshActivity extends AppCompatActivity {
         mPullRefreshView.setFastScrollEnabled(true);
         mPullRefreshView.setSelector(new ColorDrawable(Color.TRANSPARENT));
 
-        SpannableString title = new SpannableString("下拉刷新,下拉加载");
+        SpannableString title = new SpannableString("下拉刷新,上拉加载");
         title.setSpan(new ForegroundColorSpan(Color.WHITE),0,title.length(),
                 Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
         ActionBar actionBar = getSupportActionBar();
