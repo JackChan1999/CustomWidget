@@ -16,6 +16,7 @@ import com.google.widget.view.SweepView;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -46,7 +47,9 @@ public class SweepActivity extends AppCompatActivity {
     public RecyclerView mRecyclerView;
 
     private List<String> data;
-    private List<SweepView> mOpenedViews = new ArrayList<>();
+    // 会发生并发修改异常，118行遍历的时候，100行删除，使用CopyOnWriteArrayList
+    // private List<SweepView> mOpenedViews = new ArrayList<>();
+    private CopyOnWriteArrayList<SweepView> mOpenedViews = new CopyOnWriteArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
